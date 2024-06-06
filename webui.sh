@@ -74,7 +74,7 @@ while getopts "f" flag > /dev/null 2>&1
 do
     case ${flag} in
         f) can_run_as_root=1;;
-        *) break;;
+        *) can_run_as_root=1;;
     esac
 done
 
